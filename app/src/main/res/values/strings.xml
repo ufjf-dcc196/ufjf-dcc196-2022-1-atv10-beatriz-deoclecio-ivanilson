@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Caça Niquel</string>
+    <string name="entrar">Entrar</string>
+    <string name="equipe">Equipe</string>
+    <string name="fechar">Fechar</string>
+    <string name="digite_seu_nome">Digite seu nome</string>
+    <string name="cassino">cassino</string>
 </resources>
