@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnEntrar;
     Button btnFechar;
     Button btnEquipe;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,10 +26,11 @@ public class MainActivity extends AppCompatActivity {
         btnFechar = findViewById(R.id.btnFechar);
         btnEquipe = findViewById(R.id.btnEquipe);
 
+
         btnEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                 Intent intent = new Intent(MainActivity.this, Jogar.class);
+                Intent intent = new Intent(MainActivity.this, Jogar.class);
                 startActivity(intent);
             }
         });
@@ -36,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
         btnEquipe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                    Intent intent = new Intent(MainActivity.this, Credito.class);
-                    startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, Credito.class);
+                startActivity(intent);
             }
         });
 
