@@ -1,4 +1,4 @@
-package br.ufjf.dcc196.deocleciofilho.cacaniquel3;
+package br.ufjf.dcc196.atv10.cacaniquel;
 
 import android.os.Bundle;
 import android.view.View;
@@ -10,7 +10,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Random;
 
-public class jogar extends AppCompatActivity {
+public class Jogar extends AppCompatActivity {
     int moeda;
     int pontos;
     private Button bt_1;
@@ -22,8 +22,6 @@ public class jogar extends AppCompatActivity {
     private TextView txtMoeda;
     private TextView txtPontos;
     TextView textViewMaxPontos;
-    NiquelRepository repo;
-    private AppDatabase db;
     TextView txtNomeJogador;
 
 

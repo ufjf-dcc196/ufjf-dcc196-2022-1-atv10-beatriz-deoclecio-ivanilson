@@ -7,7 +7,7 @@
     android:textAlignment="center"
     app:flow_horizontalAlign="center"
     app:flow_verticalAlign="center"
-    tools:context=".jogar">
+    tools:context=".Jogar">
 
 
     <TextView
