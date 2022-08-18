@@ -8,7 +8,15 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+/**Atividade 10 - Caça Níquel
+ Discentes:
 
+ Beatriz Cunha Rodrigues - 201776038
+
+ Deoclécio Porfirio Ferreira Filho - 201876043
+
+ Ivanylson Honório Gonçalves - 201776002
+ * **/
 public class MainActivity extends AppCompatActivity {
 
     TextView txtNome;
