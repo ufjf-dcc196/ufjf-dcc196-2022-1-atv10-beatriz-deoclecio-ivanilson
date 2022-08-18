@@ -9,8 +9,18 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.Random;
+/**Atividade 10 - Caça Níquel
+ Discentes:
 
+ Beatriz Cunha Rodrigues - 201776038
+
+ Deoclécio Porfirio Ferreira Filho - 201876043
+
+ Ivanylson Honório Gonçalves - 201776002
+ * **/
+///Classe jogar serve para iniciar o jogo 
 public class Jogar extends AppCompatActivity {
+    //Criando as variaveis e os itens
     int moeda;
     int pontos;
     private Button bt_1;
@@ -24,12 +34,12 @@ public class Jogar extends AppCompatActivity {
     TextView textViewMaxPontos;
     TextView txtNomeJogador;
 
-
+    //Iniciando a activity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jogar);
-
+        //Definindo os ids
         bt_1=findViewById(R.id.bt_1);
         bt_2=findViewById(R.id.bt_2);
         bt_3=findViewById(R.id.bt_3);
@@ -43,7 +53,7 @@ public class Jogar extends AppCompatActivity {
 
 
 
-
+        //Chamando os botoes
         btnNovoJogo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -85,7 +95,7 @@ public class Jogar extends AppCompatActivity {
         });
 
     }
-
+    //Chegando o jogo
     public void checarJogo(int a, int b, int c){
 
         if(((a==7) &&(b==7)&&(c==7)) ){
