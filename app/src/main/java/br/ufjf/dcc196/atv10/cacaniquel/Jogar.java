@@ -22,8 +22,6 @@ public class jogar extends AppCompatActivity {
     private TextView txtMoeda;
     private TextView txtPontos;
     TextView textViewMaxPontos;
-    NiquelRepository repo;
-    private AppDatabase db;
     TextView txtNomeJogador;
 
 
