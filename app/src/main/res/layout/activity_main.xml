@@ -55,7 +55,6 @@
         android:id="@+id/txtNome"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="Digite seu nome"
@@ -64,15 +63,19 @@
         app:layout_constraintBottom_toTopOf="@+id/btnVoltar"
         app:layout_constraintEnd_toStartOf="@+id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView3"
         android:layout_width="383dp"
         android:layout_height="446dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/caca" />
+        />
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
