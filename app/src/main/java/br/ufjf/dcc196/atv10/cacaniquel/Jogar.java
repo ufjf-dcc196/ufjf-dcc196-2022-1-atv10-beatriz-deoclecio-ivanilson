@@ -1,4 +1,4 @@
-package br.ufjf.dcc196.atv10.cacaniquel;
+package br.ufjf.dcc196.deocleciofilho.cacaniquel3;
 
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +22,8 @@ public class jogar extends AppCompatActivity {
     private TextView txtMoeda;
     private TextView txtPontos;
     TextView textViewMaxPontos;
+    NiquelRepository repo;
+    private AppDatabase db;
     TextView txtNomeJogador;
 
 
